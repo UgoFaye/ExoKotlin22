@@ -1,3 +1,5 @@
 fun main() {
-    // put your code here
+    var a = "8"
+    var b = "11"
+    println(a+ " " +b)
 }
