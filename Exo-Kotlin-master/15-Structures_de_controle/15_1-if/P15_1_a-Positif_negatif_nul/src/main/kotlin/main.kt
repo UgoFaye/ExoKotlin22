@@ -1,3 +1,12 @@
 fun main() {
-    // write your code here
+   val a = -5
+    if(a < 0) {
+        println("negatif")
+    } else if (a > 0) {
+        println("positif")
+    } else if (a == 0) {
+        println("zero")
+    }
+
+
 }
