@@ -1,7 +1,10 @@
-// write the BankAccount class here
+class BankAccount(var deposited : Long, var withdrawn : Long) {
+    var balance = deposited - withdrawn
+}
 
 
 fun main() {
-    val account = BankAccount(100, 20)
+    val account = BankAccount(150, 82)
+    account.balance
     println(account.balance)
 }
